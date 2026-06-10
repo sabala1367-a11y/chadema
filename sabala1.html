@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duka la Vitabu Online</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            background:#f5f5f5;
+        }
+
+        header{
+            background:#2c3e50;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        .container{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            padding:20px;
+        }
+
+        .book{
+            background:white;
+            width:250px;
+            margin:15px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+            overflow:hidden;
+            text-align:center;
+        }
+
+        .book img{
+            width:100%;
+            height:300px;
+            object-fit:cover;
+        }
+
+        .book h2{
+            font-size:22px;
+        }
+
+        .price{
+            color:green;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+        button{
+            background:#27ae60;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            margin:15px;
+            cursor:pointer;
+            border-radius:5px;
+        }
+
+        button:hover{
+            background:#219150;
+        }
+
+        footer{
+            background:#2c3e50;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Duka la Vitabu Online</h1>
+    <p>Nunua vitabu kwa urahisi popote ulipo</p>
+</header>
+
+<div class="container">
+
+    <div class="book">
+        <img src="https://via.placeholder.com/250x300" alt="Kitabu">
+        <h2>HTML na CSS</h2>
+        <p class="price">Tsh 20,000</p>
+        <button>Nunua Sasa</button>
+    </div>
+
+    <div class="book">
+        <img src="https://via.placeholder.com/250x300" alt="Kitabu">
+        <h2>JavaScript kwa Vitendo</h2>
+        <p class="price">Tsh 25,000</p>
+        <button>Nunua Sasa</button>
+    </div>
+
+    <div class="book">
+        <img src="https://via.placeholder.com/250x300" alt="Kitabu">
+        <h2>Python Beginner</h2>
+        <p class="price">Tsh 30,000</p>
+        <button>Nunua Sasa</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Duka la Vitabu Online
+</footer>
+
+</body>
+</html>
